@@ -1,0 +1,19 @@
+The index files for ITracker are basic text files and can be edited with any text editor (e.g. Notepad).
+
+The first and second lines are not used by the program. UPCs start reading on line 3:
+
+1|Not Used
+2|Not Used
+3|First UPC or First Page
+
+To create a new page, place a blank line where a UPC would be, followed by "<PAGE>", then the page name.
+
+In the following example, line 3 is a UPC, line 4 is line number (3 digits), SKU (4-6 digits), and department (3 digits),
+lines 5-7 are a page structure:
+
+3|760263529365
+4|001 123456 999
+5|
+6|<PAGE>
+7|Name of the page.
+
